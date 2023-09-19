@@ -1,0 +1,7 @@
+
+Doctype: HTML5
+Titel: SportFocus vzw - Zwemlessen - Sportkampen - Voetbal
+Charset: UTF-8
+Valideer webpagina: Heel veel fouten.
+favicon: Het kleine icoontje in het tablat bovenaan.
+ > effect in chrome: Kan je zien welk tablat wat is wanneer het heel klein staat. En is mooier.
