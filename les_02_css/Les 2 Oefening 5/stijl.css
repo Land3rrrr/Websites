@@ -1,0 +1,29 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Quicksand&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Croissant+One&family=Quicksand&display=swap" rel="stylesheet">
+body {
+
+  }
+  .section {
+    width: 300px;
+    border: 3px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  #sectie1 {
+    font-family: "Croissant one",serif;
+    background-color: #e6a2a2;
+    color: #600;
+  }
+  #sectie2 {
+    font-family: 'quicksand',sans-serif;
+    background-color: #a2c4e6;
+    color: #004080;
+  }
+  #sectie3 {
+    font-family: 'Courier Prime', monospace;
+    background-color: #a2e6c4;
+    color: #00663d;
+  }

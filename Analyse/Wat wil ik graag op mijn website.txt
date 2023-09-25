@@ -1,0 +1,13 @@
+Wat wil ik graag op mijn website?
+
+- Een donkergroene balk bovenaan. in die balk kan je van pagina naar pagina gaan.
+- de donkergroene pagina op de homepage heeft 2 links. 1 voor info over mij als persoon en 1 voor info over mij als werknemer.
+
+- Onder de groene balk een grijskleurige versie van groen. Met daarop alle info voor op die pagina.
+
+Welke pagina's wil ik op mijn website?
+- Index (Homepage)
+- CV. Een afdrukbare pagina met mijn cv erop. Dan kan de werkgever die appart opslaan of downloaden.
+- Werkervaring. Hier komt alle werkervaring op met een slide-out. dat als je op de naam van het bedrijf klikt dat de info er bijkomt. zoals       de periode waarin ik daar gewerkt heb en het adres en de functie die ik had. Ook een aantal van mijn taken in het bedrijf.
+- een contactpagina. met alle info die ze nodig hebben om mij te contacteren.
+- mijn hobbies en intresses.
