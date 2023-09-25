@@ -1,12 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ervaringen</title>
-  </head>
-  <body>
-    <h1>Mijn Ervaringen</h1>
+Analyse opdracht.
+
+Denk na over een website waarmee je je zelf kan voorstellen aan een potentiele werkgever.
+1. Wat wil ik graag op mijn website
+ * Ik wil een voorpagina met bovenaan of aan de zijkant een rij waar je kan klikken op de apparte hoofdstukken van de site.
+     > Onderdelen van de hoofdstukken zijn de pagina's van de site. (Electriciteit, Opleidingen, ervaringen, etc)
+
+2. Welke Pagina's wil ik op mijn website?
+ * Een pagina met info over mij als persoon
+     > Hobbies, activiteiten, dagelijkse bezigheid etc.
+ * Ervaringen. (Werkervaringen)
+ * Opleidingen
+     > Op de pagina van opleidingen wil ik een appart kader voor electriciteit. onder electriciteit wil ik een uitleg over de studie en de ervaringen
+     > een deel waarop staat dat ik momenteel bezig ben met mijn graduaat programmeren
+ * Contact
+     > Email
+     > Schoolemail
+
+3. Wie is mijn doelpubliek
+ * Winkels die electrisch aangelegen zijn of in de IT sector
+ * Of een combinatie van beide
+
+4. Welke kleuren wil ik gebruiken
+ * Donker Groen en wit als praire kleuren
+ * Lichter groen en grijs als secundaire kleuren
+
+5. Welke afbeeldingen wil ik gebruiken?
+ * Een afbeelding voor electriciteit
+ * Een afbeelding voor programmeren
+
+6. Wat wil je over jezelf vertellen?
+
+7. Welk beeldmateriaal ga je gebruiken
+
+8. Wat is je huisstijl 
+
+
+<h1>Mijn Ervaringen</h1>
     <p>Op deze pagina kan u mijn werkervaringen zien.</p>
     <h2>Elektriciteit</h2>
     <p>---------------------------------------------------------</p>
@@ -52,6 +81,3 @@
     <p>Start en Einddatum: 06/07/2022 - 17/06/2022</p>
     <p>Functie: Jobstudent</p>
     <p>---------------------------------------------------------</p>
-    <a href="index.html">Terug naar de Welkompagina</a>
-  </body>
-</html>
