@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 40%;
+        }
+        input {
+            background-color: lightblue;
+            padding: 5px;
+            margin: 5px;
+        }
+        label {
+            margin: 5px;
+            font-weight: bold;
+        }
+        .submit {
+            background-color: lightgray;
+        }
+    </style>
+<body>
+    <form action="http://tn-statweb.be/forms.php" method="post">
+        <div>
+            <label for="Voornaam">Voornaam: </label>
+         </div>
+         <div>
+            <input type="text" id="Voornaam" name="Voornaam" placeholder="Voornaam">
+        </div>
+        <div>
+         <label for="Familienaam">Familienaam: </label>
+        </div>
+         <div>
+          <input type="text" name="Familienaam" id="Familienaam" placeholder="Familienaam">
+         </div>
+         <div>
+         <input class="submit"   type="submit" value="Registreren">
+         </div>
+         </form>
+</body>
+</html>

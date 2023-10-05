@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bold;
+        box-shadow: gray 50%;
+      }
+      input {
+        width: 50%;
+        box-shadow: 1px 1px gray;
+        border-radius: 15px;
+      }
+      .register {
+        width: 50.5%;
+        margin: 10px 0 0 0;
+      }
+      label {
+        margin: 1px;
+      }
+      input {
+        margin: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="http://tn-statweb.be/forms.php" method="post">
+      <div>
+        <label for="Voornaam">Voornaam: </label>
+        <div>
+          <input
+            type="text"
+            name="Voornaam"
+            id="Voornaam"
+            placeholder="Voornaam"
+          />
+        </div>
+      </div>
+      <div>
+        <label for="Familienaam">Familienaam: </label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="Familienaam"
+          id="Familienaam"
+          placeholder="Familienaam"
+        />
+      </div>
+      <div>
+        <label for="Gebruikersnaam">Gebruikersnaam: </label>
+      </div>
+      <div>
+        <input
+          type="email"
+          name="Gebruikersnaam"
+          id="Gebruikersnaam"
+          placeholder="mail@thomasmore.be"
+        />
+      </div>
+
+      <div>
+        <label for="Nickname">Nickname: </label>
+      </div>
+      <div>
+        <input
+          type="text"
+          name="Nickname"
+          id="Nickname"
+          required
+          min="5"
+          max="15"
+        />
+      </div>
+
+      <div>
+        <label for="Password">Password: </label>
+      </div>
+      <div>
+        <input type="password" name="password" id="password" />
+      </div>
+
+      <div>
+        <label for="Herhaal Password">Herhaal Password: </label>
+      </div>
+      <div>
+        <input type="password" name="Herhaalpassword" id="Herhaalpassword" />
+      </div>
+      <div>
+        <input class="register" type="submit" value="Registreren" />
+      </div>
+    </form>
+  </body>
+</html>
