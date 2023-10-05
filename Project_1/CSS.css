@@ -1,23 +1,73 @@
 body {
-    background-color: #DCE1DE;
-    color: #0017;
+  background-color: #dce1de;
+  color: #0017;
 }
-.header{
-    position: relative; top: -15px;
-    position: relative; left: -10px;
-    background-color: #3D7068;
-    text-align: center;
-    width: 100%;
-    height: 50px;
-    border: 20px solid #3D7068;
-    padding: 0px;
-    margin: 0px;
+.header {
+  position: relative;
+  top: -15px;
+  position: relative;
+  left: -10px;
+  background-color: #3d7068;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  border: 20px solid #3d7068;
+  padding: 0px;
+  margin: 0px;
 }
 .clickpages {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0017;
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+.infoblockleft {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background: lightgray;
+  float: left;
+  width: 25%;
+  height: 100%;
+  box-sizing: 25%;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 0px 0px auto 0px;
+  margin: 5% 2% 5% 20%;
+}
+.infoblockright {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: lightgray;
+  float: right;
+  width: 25%;
+  height: 100%;
+  box-sizing: 25%;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding: 0px 0px auto 0px;
+  margin: 5% 20% 5% 2%;
+}
+.infoblocktitel {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-weight: bold;
-    color: #0017;
-    width: 20%;
-    float: left;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.infoblocktext {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 5%;
 }
