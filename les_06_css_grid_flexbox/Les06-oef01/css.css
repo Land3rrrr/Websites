@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: wheat
+}
+
+.noord {
+    position: fixed;
+    top: 0px;
+    padding-inline: 50%;
+    font-size: 50px;
+}
+
+.oost {
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    right: 20px;
+    font-size: 50px;
+}
+.zuid {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    bottom: 20px;
+    font-size: 50px;
+}
+.west {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    font-size: 50px;
+}
+.compass {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    font-size: 50px;
+}

@@ -1,20 +1,29 @@
+* {
+  margin: 0;
+}
+html {
+  background: url(Images/Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+
+
 body {
-  background-color: #dce1de;
   color: #0017;
 }
 .header {
   position: relative;
-  top: -15px;
   position: relative;
-  left: -10px;
   background-color: #3d7068;
   text-align: center;
   width: 100%;
-  height: 50px;
-  border: 20px solid #3d7068;
+  height: 70px;
   padding: 0px;
   margin: 0px;
 }
+
 .clickpages {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
@@ -23,12 +32,14 @@ body {
   width: 20%;
   height: 100%;
   float: left;
+  padding-top: 1%;
 }
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+  color: wheat;
 }
 .infoblockleft {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -61,8 +72,10 @@ h1 {
 .infoblocktitel {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: auto;
+    box-sizing: 25%;
     text-align: center;
+    width: 100%;
     color: black;
 }
 .infoblocktext {
@@ -70,4 +83,40 @@ h1 {
   font-size: 15px;
   text-align: center;
   padding: 5%;
+}
+@media (width < 600px) {
+  .infoblocktitel {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: 25%;
+    text-align: center;
+    width: 100%;
+    color: black;
+  }
+  .clickpages {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #0017;
+    width: 20%;
+    height: 100%;
+    float: left;
+  }
+}
+
+.hover:hover {
+  color: wheat;
+}
+.active:active {
+  color: green;
+}
+
+.grid-container {
+  display: flex;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  color: wheat;
+  font-size: 50px;
 }
