@@ -15,7 +15,6 @@ body {
 }
 .header {
   position: relative;
-  position: relative;
   background-color: #3d7068;
   text-align: center;
   width: 100%;
@@ -113,10 +112,21 @@ h1 {
 }
 
 .grid-container {
-  display: flex;
+  display: grid;
   grid-template-columns: auto auto auto;
+  gap: 5%;
+  margin: 10%;
+  padding: 5%;
 }
 .grid-item {
-  color: wheat;
-  font-size: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: gray;
+  color: #0017;
+  text-align: center;
+  padding: 5%;
+  font-size: 30px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
 }
