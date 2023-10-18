@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+div {
+    width: 100%;
+    
+}
+.box {
+    background-color: blue;
+    width: 300px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    
+}

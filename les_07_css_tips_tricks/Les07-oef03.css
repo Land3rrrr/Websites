@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rowleft {
+    width: 30%;
+    padding: 15px;
+    float: left;
+}
+.rowright {
+    width: 70%;
+    padding: 15px;
+    float: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .rowleft {
+        width: 100%;
+    }
+    .rowright {
+        width: 100%;
+    }
+}

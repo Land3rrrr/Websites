@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: black;
+}
+
+.blockone {
+    z-index: -1;
+    background-color: yellow;
+    height: 100px;
+    width: 50%;
+}
+.blocktwo {
+    z-index: 0;
+    background-color: red;
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+}
+.blockthree {
+    z-index: 1;
+    background-color: white;
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+}
